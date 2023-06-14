@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 const head = React.createElement("h1", {}, "Hello react ki duniya");
 const head2 = React.createElement("h3", {id: "heading2"}, "Hello react ki duniya2");
 const root = ReactDOM.createRoot(document.getElementById("root"));

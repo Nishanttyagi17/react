@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is react practise",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishanttyagi17/react.git"
+  },
+  "author": "Nishant tyagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishanttyagi17/react/issues"
+  },
+  "homepage": "https://github.com/Nishanttyagi17/react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
