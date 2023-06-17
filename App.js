@@ -6,6 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(head);
 // root.render(head2);
 
+// normal react element
 const dom = React.createElement(
     "div",
     {id: "parent"},
@@ -17,4 +18,26 @@ const dom = React.createElement(
 
             ]    )
 );
-root.render(dom);
+
+// Jsx element
+const heading = (
+    <h1> Hi how are you</h1>
+);
+
+// Functional component
+
+const FirstComponent = () => {
+    return <h1> hello world</h1>;
+};
+
+//Component composition: using one component inside another
+
+const SecondComp = () => (
+    // here we don't require return as we are not using curly braces in this functional component
+    <div>
+         < FirstComponent />
+    <h1> hello developer</h1>
+    </div>
+   
+);
+root.render(<SecondComp/>);
